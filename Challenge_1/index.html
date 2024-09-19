@@ -9,22 +9,58 @@
     <h1>Ahmed Abu's Portfolio</h1>
     <h2><a href="mailto:ahmedabu3214@gmail.com" >Email: Click Here</a></h2>
     <p>Hello, my name is Ahmed Abu, I am currently studying coding with the SBC Team and have a passion for web development.</p>
-    <img src="image1.jpg" alt="A Coder">
+    <!--<img src="image1.jpg" alt="A Coder"> -->
     <form action="">
+        <!-- Information needed: name, email, telephone, if they accept terms and conditions, if they would like 
+         to recieve promotion offers from the newsletter and which days, if there male or female-->
         <label for="name">Name:</label>
-        <input type="text" name="name" id="name">
+        <input type="text" name="name" id="name" placeholder="Name">
         <br>
+        <br>
+        <!--EMAIL-->
         <label for="Email">Email:</label>
-        <input type="email" name="Email" id="Email">
+        <input type="email" name="Email" id="Email" placeholder="Email">
         <br>
+        <br>
+        <!--TELEPHONE-->
         <label for="tel">Telephone:</label>
-        <input type="tel" name='tel' id="tel">
+        <input type="tel" name='tel' id="tel" placeholder="Telephone">
         <br>
-        <button type="submit">Submit</button>
+        <br>
+        <!--DOB-->
+        <label for="dob">Date of Birth:</label>
+        <input type="date">
+        <br>
+        <br>
+        <!--GENDER-->
+        <label for="gender">Gender:</label>
+        <br>
+        <br>
+        <input type="checkbox" name="" id="male">
+        <label for="male">Male</label>
+        <br>
+        <br>
+        <input type="checkbox" name="" id="female">
+        <label for="female">Female</label>
 
-        <style>
-            
-        </style>
+        <br>
+        <br>
+        <!--ADDTIONAL INFO-->
+        <label for="info">Additional Information:</label>
+        <br>
+        <textarea placeholder="start typing here..." id="info"></textarea>
+        <br>
+        <br>
+        <!--TOC-->
+        <label for="tos">Do you accept the <a href="" target="_blank">Terms and Conditions?</a></label>
+        <br>
+        <p><input type="radio" name="name" id="tos" required>Yes<p>
+        <p><input type="radio" name="name" id="tos">No<p></p>
+       
+        
+        <button type="submit">Submit Here</button>
+
+        
 
     </form>
 
